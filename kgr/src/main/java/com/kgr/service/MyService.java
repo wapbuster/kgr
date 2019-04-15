@@ -41,10 +41,4 @@ public class MyService {
         return routeRequestList;
     }
 
-    public static void main(String[] args) {
-        MyService myService = new MyService();
-        //System.out.println(myService.sortRouteRequestList());
-
-        myService.sortRouteRequestList().forEach(System.out::println);
-    }
 }
